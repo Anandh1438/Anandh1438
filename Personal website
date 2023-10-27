@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <form class="survey-form">
+    <h1>Survey Form</h1>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" required>
+
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" rows="5" required></textarea>
+
+    <label for="rating">Rating:</label>
+    <input type="range" id="rating" min="1" max="10">
+
+    <label for="subscribe">Subscribe to Newsletter:</label>
+    <input type="checkbox" id="subscribe" checked>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
